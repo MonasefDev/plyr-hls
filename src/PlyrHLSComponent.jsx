@@ -40,7 +40,7 @@ const PlyrHLSWithSubtitles = ({ source, subtitle }) => {
 
       window.player = player;
     }
-  }, []);
+  }, [source, subtitle]);
 
   return (
     <div>
